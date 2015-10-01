@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-oauth-example
+  memory: 256M
+  instances: 1
+  host: cf-oauth-example
+  env:
+    CLIENT_ID: cf-oauth-example
+    CLIENT_SECRET: c1oudc0w
